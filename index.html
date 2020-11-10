@@ -42,20 +42,22 @@
         <!--Banner Section-->
         <section class="banner">
             <div
-                style="background-image: url(https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; border: 5px solid black;">
-                <h4 class="text-center text-white"> Easy access to most films</h4>
-                <div>
+                style="background-image: url(https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; min-height: 50vh; position: relative;">
+                <div style="vertical-align: middle; position: absolute; top: 15vh; left: 25vw;">
+                    <h4 class="text-center text-white m-0"> Easy access to most
+                        films</h4>
+                    <div>
 
-                    <div class="d-flex justify-content-center m-2">
-                        <form class="mt-3 form-inline" action="movies.html">
-                            <input type="text" class="form-control " placeholder="movie title" required>
-                            <input type="submit" value="search" class="btn-danger form-control border-0">
-                        </form>
+                        <div class="d-flex justify-content-center m-2">
+                            <form class="mt-3 form-inline" action="movies.html">
+                                <input type="text" class="form-control " placeholder="movie title" required>
+                                <input type="submit" value="search" class="btn-danger form-control border-0">
+                            </form>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-danger p-2 ">How it works</button>
+                        </div>
                     </div>
-                    <div class="text-center">
-                        <button type="button" class="btn btn-danger p-2 ">How it works</button>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -162,21 +164,22 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-4">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
-                                <span class="text-uppercase font-weight-bolder text-black" style="height: 50px;">
+                                <span class="text-uppercase font-weight-bolder" style="height: 50px;">
                                     subscribe</span>
                             </div>
-                            <form class="mt-3">
-                                <input type="email" class="form-control mb-2 border-0" placeholder="you@example.com">
-                                <input type="submit" value="send" class="btn-danger form-control border-0">
+                            <form class="form-inline d-flex">
+                                <input type="email" class="form-control mb-2 border-0" placeholder="you@example.com"
+                                    width="30%">
+                                <input type="submit" value="send" class="btn-danger form-control border-0 text-center">
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-sm-4">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
@@ -188,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="col-sm-4">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
