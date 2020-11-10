@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9899,6 +9900,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: "Goldman", cursive;
+  font-family: "Quicksand", sans-serif;
+}
+
 header {
   background-color: brown;
 }
