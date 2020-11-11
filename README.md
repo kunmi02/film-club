@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://microverse-sessions.github.io/newsweek-clone/)
+[Live Demo Link](https://kunmi02.github.io/film-club/)
 
 
 ## Authors
