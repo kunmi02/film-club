@@ -1,78 +1,110 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-
-@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap');
-
 
 body {
-    font-family: 'Goldman', cursive;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Goldman', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
+
 header {
   background-color: brown;
+
   svg {
     color: aliceblue;
   }
 
-.title {
-  font-family: 'Goldman', cursive;
-  font-size:30px;
-  color: aliceblue;
-  height: 50px;
-}
-}
-
-.list-group-item{
-    background-color: brown;
-    border: none;
-    a {
-        color: white;
-    }
+  .title {
+    font-family: 'Goldman', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    height: 50px;
+  }
 }
 
+.list-group-item {
+  background-color: brown;
+  border: none;
+
+  a {
+    color: white;
+  }
+}
 
 .banner {
-    h4 {
-  font-family: 'Goldman', cursive;
-  font-size:30px;
-  color: aliceblue;
-  
-    }
-}
-h3 {
+  h4 {
     font-family: 'Goldman', cursive;
-    font-size:30px;
-    color: brown;  
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  .cover {
+    background-image: url("https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    position: relative;
+  }
+
+  .contents {
+    position: absolute;
+    top: 15vh;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
-.more-info{
+
+h3 {
+  font-family: 'Goldman', cursive;
+  font-size: 30px;
+  color: brown;
+}
+
+.more-info {
   font-family: 'Goldman', cursive;
   font-size: 20px;
   font-weight: bold;
   color: whitesmoke;
 }
+
 footer {
-    background-color: black;
-    color: white;
-    ul {
-        text-transform: uppercase;
-        font-family: 'Goldman', cursive;
-        border-top: 1px solid #e2e2e2;
-        border-bottom: 1px solid #e2e2e2;
-        font-family: 'Goldman', cursive;
-font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: white;
+
+  ul {
+    text-transform: uppercase;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: 'Goldman', cursive, 'Quicksand', sans-serif;
+  }
+
+  .social-link {
+    font-family: 'Goldman', cursive, 'Quicksand', sans-serif;
+
+    li {
+      height: 15px;
+      width: 15px;
     }
-.social-link {
-    font-family: 'Goldman', cursive;
-font-family: 'Quicksand', sans-serif;
-li {
-    height: 15px; 
-    width: 15px;
+  }
 }
-}
-}
+
 #overrule {
-    border: none;
+  border: none;
+}
+
+.more-information {
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+.movie-result {
+  iframe {
+    width: 50%;
+    height: 500px;
+  }
 }
