@@ -39,15 +39,15 @@
     </header>
     <main>
         <!--MOVIE INFORMATION-->
-        <section>
+        <section class="">
             <h3 class="text-center my-2"> The gym ladies</h3>
-            <div class="container-fluid">
+            <div class="d-flex flex-column justify-content-center container" >
                 <iframe id="player" width="100%" height="500px"
                     src="https://www.youtube.com/embed/erDxb4IkgjM?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
                     frameborder="0"></iframe>
 
                 <article class="my-3">
-                    <div>
+                    <div class="text-center">
                         Lorem ipsum dolor sit amet, tollit facilisi vim et, invenire constituto ad vim, ut vel
                         scripta suscipit. Et saperet maluisset vis, usu at duis assum theophrastus. Facer tempor
                         id est, vim ad porro nulla mediocritatem. Has at repudiare inciderint, in minim utroque
@@ -80,7 +80,7 @@
     <!--FOOTER SECTION -->
     <footer>
         <div class="p-2">
-            <ul class="list-inline p-2 mt-2 d-flex justify-content-between">
+            <ul class="list-inline p-2 mt-2 d-lg-flex justify-content-between">
                 <li class=list-inline-item>home</li>
                 <li class=list-inline-item>search</li>
                 <li class=list-inline-item>about us</li>
@@ -94,7 +94,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
@@ -102,14 +102,14 @@
                                     subscribe</span>
                             </div>
                             <form class="form-inline d-flex">
-                                <input type="email" class="form-control mb-2 border-0" placeholder="you@example.com"
+                                <input type="email" class="form-control border-0" placeholder="you@example.com"
                                     width="30%">
-                                <input type="submit" value="send" class="btn-danger form-control border-0 text-center">
+                                    <button class="btn btn-danger">Submit</button>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="card-body">
                         <div class="newsletter-signup">
                             <div class="d-flex mb-2">
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-around pt-1 social-link" style="background-color: #1F1F1F;">
+        <div class="d-lg-flex  justify-content-around p-2 pt-1 social-link" style="background-color: #1F1F1F;">
             <div>
                 <ul class="list-inline" id="overrule">
                     <li class="list-inline-item fa fa-facebook"></li>
@@ -146,7 +146,7 @@
                     <li class="list-inline-item fa fa-instagram"></li>
                 </ul>
             </div>
-            <div>
+            <div class="d-md-flex">
                 <p>&copy; filmclub 2020 all rights reserved. powered by azeez digital. love and awesomeness</p>
             </div>
         </div>
