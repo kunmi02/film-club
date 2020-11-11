@@ -6,8 +6,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Quicksand:wght@300&display=swap");
 :root {
   --blue: #007bff;
@@ -9931,6 +9929,22 @@ header .title {
   font-size: 30px;
   color: aliceblue;
 }
+.banner .cover {
+  background-image: url("https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  position: relative;
+}
+.banner .contents {
+  position: absolute;
+  top: 15vh;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 h3 {
   font-family: "Goldman", cursive;
@@ -9951,15 +9965,12 @@ footer {
 }
 footer ul {
   text-transform: uppercase;
-  font-family: "Goldman", cursive;
   border-top: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
-  font-family: "Goldman", cursive;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Goldman", cursive, "Quicksand", sans-serif;
 }
 footer .social-link {
-  font-family: "Goldman", cursive;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Goldman", cursive, "Quicksand", sans-serif;
 }
 footer .social-link li {
   height: 15px;
@@ -9968,6 +9979,16 @@ footer .social-link li {
 
 #overrule {
   border: none;
+}
+
+.more-information iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.movie-result iframe {
+  width: 50%;
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
