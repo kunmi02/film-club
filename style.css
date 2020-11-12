@@ -9926,7 +9926,7 @@ header .title {
 
 .banner h4 {
   font-family: "Goldman", cursive;
-  font-size: 30px;
+  font-size: 20px;
   color: aliceblue;
 }
 .banner .cover {
@@ -9946,10 +9946,15 @@ header .title {
   justify-content: center;
 }
 
-h3 {
+h1, h3 {
   font-family: "Goldman", cursive;
   font-size: 30px;
   color: brown;
+}
+
+h4 {
+  font-family: "Goldman", cursive;
+  font-size: 25px;
 }
 
 .more-info {
@@ -9989,6 +9994,62 @@ footer .social-link li {
 .movie-result iframe {
   width: 50%;
   height: 500px;
+}
+
+#cover {
+  background: white url("https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-2 {
+  background-color: #eeeeee;
+  background-size: cover;
+  height: 100%;
+  min-height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.search-form input, .search-form label {
+  display: block;
+}
+.search-form .search-label {
+  color: black;
+  font-weight: bolder;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(247, 243, 243, 0.9);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.form-label {
+  font-size: 12px;
+  font-family: "Goldman", cursive;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */
