@@ -29,31 +29,38 @@
             </div>
             <div>
                 <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item"><a href="" class="fa fa-search text-capitalize"> <span class="d-sm-none d-md-none d-lg-inline"> films</span></a></li>
-                    <li class="list-group-item"><a href="" class="fas fa-user text-capitalize"> <span class="d-sm-none d-md-none d-lg-inline"> about</span> </a></li>
-                    <li class="list-group-item"><a href="" class="fas fa-blog text-capitalize"><span class="d-sm-none d-md-none d-lg-inline"> blog</span></a></li>
-                    <li class="list-group-item"><a href="" class="fa fa-bars text-capitalize"> <span class="d-sm-none d-md-none d-lg-inline"> more</span></a></li>
+                    <li class="list-group-item"><a href="" class="fa fa-search text-capitalize"> <span
+                                class="d-sm-none d-md-none d-lg-inline"> films</span></a></li>
+                    <li class="list-group-item"><a href="" class="fas fa-user text-capitalize"> <span
+                                class="d-sm-none d-md-none d-lg-inline"> about</span> </a></li>
+                    <li class="list-group-item"><a href="" class="fas fa-blog text-capitalize"><span
+                                class="d-sm-none d-md-none d-lg-inline"> blog</span></a></li>
+                    <li class="list-group-item"><a href="" class="fa fa-bars text-capitalize"> <span
+                                class="d-sm-none d-md-none d-lg-inline"> more</span></a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <!--Banner Section-->
-        <section class="banner">
-            <div class="cover">
-                <div class="text-center contents">
-                        <h4 class="text-center text-danger m-0"> Easy access to most
-                        films</h4>
-                    <div>
+        <section id="cover" style="min-height: 60vh;">
+            <div id="cover-caption">
+                <div class="container" style="margin-top: -3%;">
+                    <h3 class="py-2 text-truncate text-white">Easy access to most movies</h3>
+                    <div class="row text-white">
+                        <div class="col-xl-7 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
 
-                        <div class="m-2 text-md-center">
-                            <form class="mt-3 form-inline" action="movies.html">
-                                <input type="text" class="form-control " placeholder="movie title" required>
-                                <input type="submit" value="search" class="btn-danger form-control border-0">
-                            </form>
-                        </div>
-                        <div class="text-center">
-                            <button type="button" class="btn btn-danger p-2 ">How it works</button>
+                            <div class="m-2 ">
+                                <form action="movies.html" class="justify-content-center form-inline">
+                                    <div class="form-group w-100 ">
+                                        <label class="text-uppercase form-label text-black-50">search by
+                                            keywords:</label>
+                                        <input type="text" class="form-control col-md-8 col-xl-10 col-lg-9"
+                                            placeholder="movie title" required>
+                                        <button type="submit" class="btn btn-sm text-uppercase p-2 form-control"
+                                            style="background-color: brown;">search</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,9 +75,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="card border-0 my-5">
-                            <div class="card-img-top text-center"><svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" style="color: brown;"/>
-                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" style="color: brown;"/></svg></div>
+                            <div class="card-img-top text-center"><svg width="10rem" height="10rem" viewBox="0 0 16 16"
+                                    class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                                        style="color: brown;" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                                        style="color: brown;" /></svg></div>
                             <div class="card-body p-4">
                                 <h3 class="card-title text-center"> <span>search</span></h3>
                                 <p class="card-text">It is very simple to use. On the film club homepage, enter the
@@ -82,13 +94,17 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card border-0 my-5">
                             <div class="card-img-top text-center">
-                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-map" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z" style="color: brown;"/>
+                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-map"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98l4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"
+                                        style="color: brown;" />
                                 </svg>
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title text-center"> Locate</h3>
-                                <p class="card-text">It is very simple to use. On the film club homepage, enter the title
+                                <p class="card-text">It is very simple to use. On the film club homepage, enter the
+                                    title
                                     of the
                                     movie you will ike to iew and click on search. Alternatively, you can click on the
                                     search
@@ -101,13 +117,17 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card border-0">
                             <div class="card-img-top text-center">
-                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" style="color: brown;"/>
-                                  </svg>
+                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-play"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"
+                                        style="color: brown;" />
+                                </svg>
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title text-center">preview</h3>
-                                <p class="card-text">It is very simple to use. On the film club homepage, enter the title
+                                <p class="card-text">It is very simple to use. On the film club homepage, enter the
+                                    title
                                     of the
                                     movie you will ike to iew and click on search. Alternatively, you can click on the
                                     search
@@ -118,9 +138,12 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card border-0">
                             <div class="card-img-top text-center">
-                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-cup" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8zM13 2H2v10.5A1.5 1.5 0 0 0 3.5 14h8a1.5 1.5 0 0 0 1.5-1.5V2z" style="color: brown;"/>
-                                  </svg>
+                                <svg width="10rem" height="10rem" viewBox="0 0 16 16" class="bi bi-cup"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8zM13 2H2v10.5A1.5 1.5 0 0 0 3.5 14h8a1.5 1.5 0 0 0 1.5-1.5V2z"
+                                        style="color: brown;" />
+                                </svg>
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title text-center">relax</h3>
@@ -143,9 +166,10 @@
                     <p>find a movie by using our filtered search engine</p>
                     <button class="btn btn-light">Find a movie</button>
                 </div>
-                
-                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg" alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
-            
+
+                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg"
+                    alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
+
             </div>
             <div style="background-color: rgb(152,164,164);" class="d-flex p-5 justify-content-between">
                 <div class="m-lg-5 p-lg-5">
@@ -153,7 +177,8 @@
                     <p> No need to worry yourself about which movie to watch</p>
                     <button class="btn btn-light">choose a favourite movie</button>
                 </div>
-                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg" alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
+                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg"
+                    alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
             </div>
             <div style="background-color: rgb(80,155,215);" class="d-flex p-5 justify-content-between">
                 <div class="m-lg-5 p-lg-5">
@@ -161,7 +186,8 @@
                     <p>find a movie by using our filtered search engine</p>
                     <button class="btn btn-light">Find a movie</button>
                 </div>
-                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg" alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
+                <img src="https://image.freepik.com/free-vector/movie-cinema-premiere-background_41737-251.jpg"
+                    alt="movie-finder icon" class="img-responsive" style="border-radius: 50%; height: 30%; width: 30%;">
             </div>
         </section>
     </main>
@@ -189,9 +215,9 @@
                                     subscribe</span>
                             </div>
                             <form class="form-inline d-flex">
-                                
+
                                 <input type="email" class="form-control  border-0" placeholder="you@example.com">
-                                    <button class="btn btn-danger">Submit</button>
+                                <button class="btn btn-danger">Submit</button>
                             </form>
                         </div>
                     </div>
