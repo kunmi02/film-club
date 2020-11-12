@@ -9924,6 +9924,11 @@ header .title {
   color: white;
 }
 
+h4 {
+  font-family: "Goldman", cursive;
+  font-size: 25px;
+}
+
 .banner h4 {
   font-family: "Goldman", cursive;
   font-size: 20px;
@@ -9946,15 +9951,11 @@ header .title {
   justify-content: center;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-family: "Goldman", cursive;
   font-size: 30px;
   color: brown;
-}
-
-h4 {
-  font-family: "Goldman", cursive;
-  font-size: 25px;
 }
 
 .more-info {
@@ -10023,7 +10024,8 @@ footer .social-link li {
   z-index: 1;
 }
 
-.search-form input, .search-form label {
+.search-form input,
+.search-form label {
   display: block;
 }
 .search-form .search-label {
@@ -10034,7 +10036,7 @@ footer .social-link li {
 }
 
 /* only used for background overlay not needed for centering */
-form:before {
+form::before {
   content: "";
   height: 100%;
   left: 0;
